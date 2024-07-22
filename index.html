@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartPhone Product Page</title>
+    <!-- Boxicons Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <nav>
+            <div class="logo">Ecommerce</div>
+            <ul class="navigation">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#customers">Customers</a></li>
+                <i class="fas fa-shopping-cart"></i>
+            </ul>
+            <div class="bx bx-menu" id="menu"></div>
+        </nav>
+    
+        <div class="flex-box">
+            <div class="left">
+                <div class="swiper slide">
+                    <div class="swiper-wrapper">
+                    <div data-hash="slide1" class="swiper-slide"><img src="Images/image (1).jpg" alt=""></div>
+                    <div data-hash="slide2" class="swiper-slide"><img src="Images/image (2).jpg" alt=""></div>
+                    <div data-hash="slide3" class="swiper-slide"><img src="Images/image (3).jpg" alt=""></div>
+                    <div data-hash="slide4" class="swiper-slide"><img src="Images/image (4).jpg" alt=""></div>
+                    <div data-hash="slide5" class="swiper-slide"><img src="Images/image (5).jpg" alt=""></div>
+                    <div data-hash="slide6" class="swiper-slide"><img src="Images/image (6).jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="pname">SmartPhone X<br></div>
+                <div class="ratings">
+                    <div class="stars">
+                        <div class="totalStars">4.5</div>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                    </div>
+                    <p>12,997 Ratings</p>
+                </div>
+                <div class="select">
+                    <p>Color :</p>
+                    <div class="option active" id="variant1"></div>
+                    <div class="option" id="variant2"></div>
+                    <div class="option" id="variant3"></div>
+                    <div class="option" id="variant4"></div>
+                    <div class="option" id="variant5"></div>
+                </div>
+                <div class="select" id="ram-select">
+                    <p>RAM :</p>
+                    <div class="option active">8 GB</div>
+                    <div class="option">12 GB</div>
+                </div>
+                <div class="select" id="storage-select">
+                    <p>Storage :</p>
+                    <div class="option active">128 GB</div>
+                    <div class="option">256 GB</div>
+                </div>
+                <div class="amount">
+                    <div class="price disPrice">Rs.55199</div>
+                    <div class="price mrp">59999</div>
+                    <div class="disc">8%</div>
+                    <div class="info"><i class='bx bx-info-circle'></i></div>
+                </div>
+                <div class="quantity">
+                    <p>Quantity :</p>
+                    <input type="number" min="1" max="5" value="1" class="amount">
+                </div>
+                <div class="btn-box">
+                    <button class="cart-btn"><i class='bx bx-cart-add' ></i></button>
+                    <button class="buy-btn">Buy Now</button>
+                </div>
+                <div class="gap"></div>
+                <!-- Specification -->
+                <section class="about" id="about">
+                    <div class="about-text">
+                        <span><br>Specification</span>
+                        <p>Introducing the latest Smartphone X, designed for those who seek the perfect blend of style, performance, and innovation.</p>
+                        <h4>Display:</h4><p>Size: 6.5 inches <br>Type: Super Retina XDR <br>Resolution: 2688 x 1242 pixels <br>Features: HDR10, True Tone, Wide Color (P3), Haptic Touch</p>
+                        <h4>Processor:</h4><p>Chipset: A15 Bionic chip <br>Architecture: 64-bit <br>Neural Engine: Next-generation Neural Engine</p>
+                        <h4>Camera:</h4><h6>Rear Camera:</h6><p>12MP wide lens (f/1.6 aperture) <br>12MP ultra-wide lens (f/2.4 aperture) <br>Night mode, Deep Fusion, Smart HDR 4 <br>4K video recording at 24 fps, 30 fps, or 60 fps</p><h6>Front Camera:</h6><p>12MP TrueDepth camera (f/2.2 aperture) <br>Night mode, Deep Fusion, Smart HDR 4 <br>4K video recording at 24 fps, 30 fps, or 60 fps</p>
+                        <p>We pride ourselves on providing exceptional customer service. Our friendly and knowledgeable team is always ready to assist you, whether you need help with sizing, styling tips, or any other inquiries. We also offer a hassle-free return policy to ensure that you are completely satisfied with your purchase.</p>
+                        <a href="#about" class="btn">Learn More<i class='bx bx-chevrons-right' ></i></a>
+                    </div>
+                </section>
+                <div class="gap"></div>
+                <!-- Customers Reviews -->
+                <section class="customers" id="customers">
+                    <h2>Customers Review</h2>
+                    <div class="customers-container">
+                        <!-- 1st Review -->
+                        <div class="box">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star-half"></i>
+                            <p>Smartphone X has quickly become my favorite device. The design is sleek and ergonomic, making it comfortable to hold. The performance is smooth and lag-free, thanks to the powerful processor and ample RAM. I appreciate the customizable features and the clean user interface.</p>
+                            <div class="review-profile">
+                                <img src="Images/Profile/cus1.jpg" alt="">
+                                <h3>Emily J.</h3>
+                            </div>
+                        </div>
+                        <!-- 2nd Review -->
+                        <div class="box">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <p>The camera system on Smartphone X is simply impressive. The main sensor captures incredible detail and color accuracy, while the ultra-wide and telephoto lenses add versatility to my photography. I love the portrait mode, which produces professional-looking photos with beautiful background blur. The video recording quality is also top-notch, with stable and clear footage. If photography is important to you, Smartphone X will not disappoint.</p>
+                            <div class="review-profile">
+                                <img src="Images/Profile/cus2.jpg" alt="">
+                                <h3>Mark T.</h3>
+                            </div>
+                        </div>
+                        <!-- 3rd Review -->
+                        <div class="box">
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bx-star"></i>
+                            <p>Smartphone X offers fantastic value for its price. The design is sleek and modern, and the build quality feels premium. I appreciate the large storage capacity, as I never have to worry about running out of space. The user interface is smooth and intuitive.</p>
+                            <div class="review-profile">
+                                <img src="Images/Profile/cus3.jpg" alt="">
+                                <h3>Rachel M.</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Ecommerce Inc. All rights reserved.</p>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
